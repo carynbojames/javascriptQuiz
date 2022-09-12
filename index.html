@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+        
+    </header>
+
+    <main>
+        <!-- Quiz Section -->
+        <section id="quiz">
+            <div class="main" id="pageStart">
+                <h2>Coding Quiz Challenge</h2>
+                <p>Answer 5 questions in less than 1 minute</p>
+                <button type="button" id="buttonStart">Start</button>
+            </div>
+            
+            <div class="main" id="Q1">
+                <div class="question">
+                    <h3>Question 1</h3>
+                </div>
+                <div class="multiple choices">
+                    <ul>
+                        <li><button type="button" class="false" id="A2">Answer 1</button></li>
+                        <li><button type="button" class="true" id="A1">Answer 2</button></li>
+                        <li><button type="button" class="false" id="A3">Answer 3</button></li>
+                        <li><button type="button" class="false" id="A4">Answer 4</button></li>
+                    </ul>
+                </div>   
+            </div>
+
+            <div class="main" id="Q2">
+                <div class="question">
+                    <h3>Question 2</h3>
+                </div>
+                <div class="multiple choices">
+                    <ul>
+                        <li><button type="button" class="true" id="A1">Answer 1</button></li>
+                        <li><button type="button" class="false" id="A2">Answer 2</button></li>
+                        <li><button type="button" class="false" id="A3">Answer 3</button></li>
+                        <li><button type="button" class="true" id="A4">Answer 4</button></li>
+                    </ul>
+                </div>   
+            </div>
+            
+            <section class="result">
+                <p id="resultText"></p>    
+            </section>   
+        </section>
+        
+        <!-- Individual Results -->
+        <div id="indivResults">
+            <input placeholder="initials" id="initials">
+            <div><button type="submit" id="buttonInitials">Submit</button></div>
+            <p id="test"></p>
+        </div>
+
+        <!-- High Scores & Reset -->
+        <div id="highScores">
+            
+        </div>
+
+    </main>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
